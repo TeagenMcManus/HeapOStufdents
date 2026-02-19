@@ -14,7 +14,7 @@ stuAddress::stuAddress() {
     zip = "";
 }
 
-//Grabs the vairables
+//Grabs the variables
 void stuAddress::init(
     string street,
     string city,

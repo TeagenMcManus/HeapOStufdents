@@ -1,3 +1,4 @@
+//Declares the file so it doesnt run multiple times
 #ifndef DATE_H
 #define DATE_H
 
@@ -26,7 +27,7 @@ class Date {
         void init(string dateString);
 
     //will print the date
-    void printDate();
+    void showDate();
 };
 
 #endif

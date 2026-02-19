@@ -1,7 +1,7 @@
 #include <iostream>
 #include <sstream>
 
-//grabs the address file with the class structure in it
+//grabs the date file with the class structure in it
 #include "date.h"
 
 //Makes it so i dont have to type std:: infornt of printing functions
@@ -56,6 +56,6 @@ string Date::monName() {
 }
 
 //Prints the date
-void Date::printDate() {
+void Date::showDate() {
     cout << monName() << " "<< day << ", "<< year << endl;
 }

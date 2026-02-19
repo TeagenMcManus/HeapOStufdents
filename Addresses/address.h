@@ -1,9 +1,9 @@
-//Makes it so i dont have to type std:: infornt of printing functions
-using namespace std;
-
 //Declares the file so it doesnt run multiple times
 #ifndef ADDRESS_H
 #define ADDRESS_H
+
+//Makes it so i dont have to type std:: infornt of printing functions
+using namespace std;
 
 #include <string>
 
